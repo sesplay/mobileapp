@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, ScrollView } from "react-native";
+import { View } from "react-native";
 import { AuthScreenView, AuthTitle, AuthTextInput, Button } from "../../components";
 
 class RegisterProfileScreen extends Component {
