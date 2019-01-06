@@ -1,11 +1,11 @@
 import React from "react";
-import { View } from "react-native";
+import { View, ScrollView } from "react-native";
 import styles from "./styles";
 
 const AuthScreenView = ({children}) => (
     <React.Fragment>
         <View style={styles.lineScreenView}></View>
-        <View>{children}</View>
+        <ScrollView contentContainerStyle={{paddingHorizontal: 50, paddingTop: 110, paddingBottom: 30}}>{children}</ScrollView>
     </React.Fragment>
 )
 export default AuthScreenView;
