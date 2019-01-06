@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, TouchableHighlight } from "react-native";
 import { very_light_pink } from "../styles/colors";
+import styles from "./styles";
 
 const Button = ({title, onPress, style}) => (
     <TouchableHighlight 
