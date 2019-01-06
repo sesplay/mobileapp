@@ -24,7 +24,11 @@ class RegisterProfileScreen extends Component {
                     label="Username"
                     placeholder="username"
                 />
-                <Button title="Finish" style={{alignSelf: 'center', marginTop: 5}} />
+                <Button 
+                    title="Finish" 
+                    style={{alignSelf: 'center', marginTop: 5}} 
+                    onPress={() => this.props.navigation.navigate('App')}
+                />
             </AuthScreenView>
         );
     }

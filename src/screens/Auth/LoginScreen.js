@@ -28,7 +28,8 @@ class LoginScreen extends Component {
                 />
                 <Button 
                     title="Login" 
-                    style={{alignSelf: 'center', marginTop: 5}} 
+                    style={{alignSelf: 'center', marginTop: 5}}
+                    onPress={() => this.props.navigation.navigate('App')}
                 />
                 <TextButton 
                     title="Register" 
