@@ -1,5 +1,5 @@
-import { createAppContainer, createStackNavigator, createSwitchNavigator } from 'react-navigation'
-import { AuthRoutes } from "./routes";
+import { createAppContainer, createStackNavigator, createSwitchNavigator, createBottomTabNavigator } from 'react-navigation'
+import { AuthRoutes, AppRoutes, MainTabRoutes } from "./routes";
 
 const AppNavigator = createStackNavigator({
     Index: createSwitchNavigator({
@@ -7,7 +7,15 @@ const AppNavigator = createStackNavigator({
             AuthRoutes, {
                 headerMode: "none"
             }
-        )}
+        )},
+        App: { screen: createStackNavigator({
+            Main: { screen: createBottomTabNavigator(
+                MainTabRoutes
+            ) },
+            ...AppRoutes
+        }, {
+            headerMode: "none"
+        })}
     })
 }, {
     headerMode: "none",
