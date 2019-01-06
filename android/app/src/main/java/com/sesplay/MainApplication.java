@@ -1,4 +1,4 @@
-package com.additionalplayer;
+package com.sesplay;
 
 import android.app.Application;
 

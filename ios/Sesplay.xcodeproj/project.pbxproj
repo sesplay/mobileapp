@@ -11,7 +11,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* AdditionalPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AdditionalPlayerTests.m */; };
+		00E356F31AD99517003FC87E /* SesplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SesplayTests.m */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -33,24 +33,24 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* AdditionalPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AdditionalPlayerTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* SesplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SesplayTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C89DC900848B426AB2F49150 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9327C30EBD54513807CCEA1 /* libRNGestureHandler.a */; };
-		0F1499E4B20A45A0AE8501FB /* Agane S 65.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FF465BABE6843C5AC141AB1 /* Agane S 65.ttf */; };
-		71BEF80C547C48438CF181DE /* Roboto Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F2641A882445FB4B49849 /* Roboto Black Italic.ttf */; };
-		A828EF85252A4D8C858A6E30 /* Roboto Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA0667FA57C49BF8B77A03B /* Roboto Black.ttf */; };
-		7D146C2B4E4D427F9669F0F9 /* Roboto Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875240B631F94CE2972ADA05 /* Roboto Bold Italic.ttf */; };
-		050902EDB79144B08D1AAE9D /* Roboto Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BEB6A258EAD458F9239FB97 /* Roboto Bold.ttf */; };
-		75532A3890024D16ADFA0D70 /* Roboto Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB33580C4A4024A782A78B /* Roboto Italic.ttf */; };
-		6F65E63C4B084924BEC7D17A /* Roboto Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2F1D7E4454D4181391538 /* Roboto Light Italic.ttf */; };
-		EF1888B5B4354CFEB186249C /* Roboto Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 502B983EED034AE392168D50 /* Roboto Light.ttf */; };
-		D76B1EB2BC9141B1B60DD831 /* Roboto Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2991865211B547639884FBDB /* Roboto Medium Italic.ttf */; };
-		A5F1690F57114E7DB3B6E063 /* Roboto Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31045F7C21384559A4C502BC /* Roboto Medium.ttf */; };
-		E486159EE0F44289A061952B /* Roboto Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB6DD335A43F4E51A9F57480 /* Roboto Regular.ttf */; };
-		FB618C10E65C4567AC7ABAEF /* Roboto Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 674646E50F26421DA3583614 /* Roboto Thin Italic.ttf */; };
-		A62A4745C892408BB515396C /* Roboto Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56B84FE14F4B4707B27D2934 /* Roboto Thin.ttf */; };
+		85F0172118A24BE588A829BF /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC15FAFAAFB41059610F277 /* libRNGestureHandler.a */; };
+		F7C57F76C2E243C2A7DCDB1D /* Agane S 65.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 608DEEC5B7F441C8B6C4CA57 /* Agane S 65.ttf */; };
+		13B9F2FB4E6C4D769B0281A5 /* Roboto Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50ED74FF480406F947E9DE7 /* Roboto Black Italic.ttf */; };
+		60A8CB20F869497E85AAB08B /* Roboto Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEBB56694995427792D84E18 /* Roboto Black.ttf */; };
+		7DABF5BFA65146648E69C2C0 /* Roboto Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86615F6894AC4DBCBBF81474 /* Roboto Bold Italic.ttf */; };
+		7CCD8F8C72CA445FB40F4856 /* Roboto Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C20CB6F1E23E4242A647D721 /* Roboto Bold.ttf */; };
+		B018D9CB79E5452CA0A2D7FB /* Roboto Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 300CBC9C4F2C4B05892938E7 /* Roboto Italic.ttf */; };
+		F9319F70D6D14AE3A9D6DD18 /* Roboto Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB50AF4D54642788D31B2F0 /* Roboto Light Italic.ttf */; };
+		5C260480DFB74B269EA32935 /* Roboto Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432FE96DF8AE437582CFA6BE /* Roboto Light.ttf */; };
+		000BB49AF61E4EE29A78A156 /* Roboto Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86372296C73C47E4A6F7F774 /* Roboto Medium Italic.ttf */; };
+		74B8AD1893724CAFA3B6576B /* Roboto Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CA21F9686F143F2AF27F06C /* Roboto Medium.ttf */; };
+		4154A1E6C8894355B530D4FD /* Roboto Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC78A96FA34041A285BB1762 /* Roboto Regular.ttf */; };
+		B1746134A7CB44CBA0E4BA8E /* Roboto Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BB913A44EB946ADB39D19DD /* Roboto Thin Italic.ttf */; };
+		9D83173DF2D142308DFC16AB /* Roboto Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1184B3A2927F4DC78B073EC7 /* Roboto Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +94,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AdditionalPlayer;
+			remoteInfo = Sesplay;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -122,7 +122,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "AdditionalPlayer-tvOS";
+			remoteInfo = "Sesplay-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -336,41 +336,41 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* AdditionalPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdditionalPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SesplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SesplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AdditionalPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionalPlayerTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SesplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SesplayTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AdditionalPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdditionalPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AdditionalPlayer/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AdditionalPlayer/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Sesplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sesplay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sesplay/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AdditionalPlayer/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AdditionalPlayer/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AdditionalPlayer/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Sesplay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sesplay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sesplay/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* AdditionalPlayer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdditionalPlayer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* AdditionalPlayer-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdditionalPlayer-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Sesplay-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sesplay-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Sesplay-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sesplay-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		CD1AFFDDC7E2417BB6140576 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		F9327C30EBD54513807CCEA1 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		6FF465BABE6843C5AC141AB1 /* Agane S 65.ttf */ = {isa = PBXFileReference; name = "Agane S 65.ttf"; path = "../assets/fonts/Agane S 65.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5B6F2641A882445FB4B49849 /* Roboto Black Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Black Italic.ttf"; path = "../assets/fonts/Roboto Black Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DCA0667FA57C49BF8B77A03B /* Roboto Black.ttf */ = {isa = PBXFileReference; name = "Roboto Black.ttf"; path = "../assets/fonts/Roboto Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		875240B631F94CE2972ADA05 /* Roboto Bold Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Bold Italic.ttf"; path = "../assets/fonts/Roboto Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4BEB6A258EAD458F9239FB97 /* Roboto Bold.ttf */ = {isa = PBXFileReference; name = "Roboto Bold.ttf"; path = "../assets/fonts/Roboto Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0EAB33580C4A4024A782A78B /* Roboto Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Italic.ttf"; path = "../assets/fonts/Roboto Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1EE2F1D7E4454D4181391538 /* Roboto Light Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Light Italic.ttf"; path = "../assets/fonts/Roboto Light Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		502B983EED034AE392168D50 /* Roboto Light.ttf */ = {isa = PBXFileReference; name = "Roboto Light.ttf"; path = "../assets/fonts/Roboto Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2991865211B547639884FBDB /* Roboto Medium Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Medium Italic.ttf"; path = "../assets/fonts/Roboto Medium Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		31045F7C21384559A4C502BC /* Roboto Medium.ttf */ = {isa = PBXFileReference; name = "Roboto Medium.ttf"; path = "../assets/fonts/Roboto Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB6DD335A43F4E51A9F57480 /* Roboto Regular.ttf */ = {isa = PBXFileReference; name = "Roboto Regular.ttf"; path = "../assets/fonts/Roboto Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		674646E50F26421DA3583614 /* Roboto Thin Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Thin Italic.ttf"; path = "../assets/fonts/Roboto Thin Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		56B84FE14F4B4707B27D2934 /* Roboto Thin.ttf */ = {isa = PBXFileReference; name = "Roboto Thin.ttf"; path = "../assets/fonts/Roboto Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B887CF8715F346C398E8F542 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		DDC15FAFAAFB41059610F277 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		608DEEC5B7F441C8B6C4CA57 /* Agane S 65.ttf */ = {isa = PBXFileReference; name = "Agane S 65.ttf"; path = "../assets/fonts/Agane S 65.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F50ED74FF480406F947E9DE7 /* Roboto Black Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Black Italic.ttf"; path = "../assets/fonts/Roboto Black Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AEBB56694995427792D84E18 /* Roboto Black.ttf */ = {isa = PBXFileReference; name = "Roboto Black.ttf"; path = "../assets/fonts/Roboto Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86615F6894AC4DBCBBF81474 /* Roboto Bold Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Bold Italic.ttf"; path = "../assets/fonts/Roboto Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C20CB6F1E23E4242A647D721 /* Roboto Bold.ttf */ = {isa = PBXFileReference; name = "Roboto Bold.ttf"; path = "../assets/fonts/Roboto Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		300CBC9C4F2C4B05892938E7 /* Roboto Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Italic.ttf"; path = "../assets/fonts/Roboto Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DB50AF4D54642788D31B2F0 /* Roboto Light Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Light Italic.ttf"; path = "../assets/fonts/Roboto Light Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		432FE96DF8AE437582CFA6BE /* Roboto Light.ttf */ = {isa = PBXFileReference; name = "Roboto Light.ttf"; path = "../assets/fonts/Roboto Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86372296C73C47E4A6F7F774 /* Roboto Medium Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Medium Italic.ttf"; path = "../assets/fonts/Roboto Medium Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1CA21F9686F143F2AF27F06C /* Roboto Medium.ttf */ = {isa = PBXFileReference; name = "Roboto Medium.ttf"; path = "../assets/fonts/Roboto Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC78A96FA34041A285BB1762 /* Roboto Regular.ttf */ = {isa = PBXFileReference; name = "Roboto Regular.ttf"; path = "../assets/fonts/Roboto Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BB913A44EB946ADB39D19DD /* Roboto Thin Italic.ttf */ = {isa = PBXFileReference; name = "Roboto Thin Italic.ttf"; path = "../assets/fonts/Roboto Thin Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1184B3A2927F4DC78B073EC7 /* Roboto Thin.ttf */ = {isa = PBXFileReference; name = "Roboto Thin.ttf"; path = "../assets/fonts/Roboto Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,7 +398,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				C89DC900848B426AB2F49150 /* libRNGestureHandler.a in Frameworks */,
+				85F0172118A24BE588A829BF /* libRNGestureHandler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,13 +470,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* AdditionalPlayerTests */ = {
+		00E356EF1AD99517003FC87E /* SesplayTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AdditionalPlayerTests.m */,
+				00E356F21AD99517003FC87E /* SesplayTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AdditionalPlayerTests;
+			path = SesplayTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -507,7 +507,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AdditionalPlayer */ = {
+		13B07FAE1A68108700A75B9A /* Sesplay */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -518,7 +518,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AdditionalPlayer;
+			name = Sesplay;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -585,7 +585,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				CD1AFFDDC7E2417BB6140576 /* RNGestureHandler.xcodeproj */,
+				B887CF8715F346C398E8F542 /* RNGestureHandler.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -602,12 +602,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AdditionalPlayer */,
+				13B07FAE1A68108700A75B9A /* Sesplay */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AdditionalPlayerTests */,
+				00E356EF1AD99517003FC87E /* SesplayTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0700EE6CEFF3426AA3889FEF /* Resources */,
+				3C88D74EF6B148CDA3A62891 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -617,10 +617,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AdditionalPlayer.app */,
-				00E356EE1AD99517003FC87E /* AdditionalPlayerTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* AdditionalPlayer-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* AdditionalPlayer-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Sesplay.app */,
+				00E356EE1AD99517003FC87E /* SesplayTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Sesplay-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Sesplay-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,22 +634,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0700EE6CEFF3426AA3889FEF /* Resources */ = {
+		3C88D74EF6B148CDA3A62891 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				6FF465BABE6843C5AC141AB1 /* Agane S 65.ttf */,
-				5B6F2641A882445FB4B49849 /* Roboto Black Italic.ttf */,
-				DCA0667FA57C49BF8B77A03B /* Roboto Black.ttf */,
-				875240B631F94CE2972ADA05 /* Roboto Bold Italic.ttf */,
-				4BEB6A258EAD458F9239FB97 /* Roboto Bold.ttf */,
-				0EAB33580C4A4024A782A78B /* Roboto Italic.ttf */,
-				1EE2F1D7E4454D4181391538 /* Roboto Light Italic.ttf */,
-				502B983EED034AE392168D50 /* Roboto Light.ttf */,
-				2991865211B547639884FBDB /* Roboto Medium Italic.ttf */,
-				31045F7C21384559A4C502BC /* Roboto Medium.ttf */,
-				AB6DD335A43F4E51A9F57480 /* Roboto Regular.ttf */,
-				674646E50F26421DA3583614 /* Roboto Thin Italic.ttf */,
-				56B84FE14F4B4707B27D2934 /* Roboto Thin.ttf */,
+				608DEEC5B7F441C8B6C4CA57 /* Agane S 65.ttf */,
+				F50ED74FF480406F947E9DE7 /* Roboto Black Italic.ttf */,
+				AEBB56694995427792D84E18 /* Roboto Black.ttf */,
+				86615F6894AC4DBCBBF81474 /* Roboto Bold Italic.ttf */,
+				C20CB6F1E23E4242A647D721 /* Roboto Bold.ttf */,
+				300CBC9C4F2C4B05892938E7 /* Roboto Italic.ttf */,
+				3DB50AF4D54642788D31B2F0 /* Roboto Light Italic.ttf */,
+				432FE96DF8AE437582CFA6BE /* Roboto Light.ttf */,
+				86372296C73C47E4A6F7F774 /* Roboto Medium Italic.ttf */,
+				1CA21F9686F143F2AF27F06C /* Roboto Medium.ttf */,
+				FC78A96FA34041A285BB1762 /* Roboto Regular.ttf */,
+				1BB913A44EB946ADB39D19DD /* Roboto Thin Italic.ttf */,
+				1184B3A2927F4DC78B073EC7 /* Roboto Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -658,9 +658,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AdditionalPlayerTests */ = {
+		00E356ED1AD99517003FC87E /* SesplayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AdditionalPlayerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SesplayTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -671,14 +671,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AdditionalPlayerTests;
-			productName = AdditionalPlayerTests;
-			productReference = 00E356EE1AD99517003FC87E /* AdditionalPlayerTests.xctest */;
+			name = SesplayTests;
+			productName = SesplayTests;
+			productReference = 00E356EE1AD99517003FC87E /* SesplayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AdditionalPlayer */ = {
+		13B07F861A680F5B00A75B9A /* Sesplay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AdditionalPlayer" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sesplay" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -689,14 +689,14 @@
 			);
 			dependencies = (
 			);
-			name = AdditionalPlayer;
+			name = Sesplay;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* AdditionalPlayer.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Sesplay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* AdditionalPlayer-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Sesplay-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AdditionalPlayer-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sesplay-tvOS" */;
 			buildPhases = (
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -707,14 +707,14 @@
 			);
 			dependencies = (
 			);
-			name = "AdditionalPlayer-tvOS";
-			productName = "AdditionalPlayer-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* AdditionalPlayer-tvOS.app */;
+			name = "Sesplay-tvOS";
+			productName = "Sesplay-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Sesplay-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* AdditionalPlayer-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Sesplay-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AdditionalPlayer-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sesplay-tvOSTests" */;
 			buildPhases = (
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
@@ -725,9 +725,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "AdditionalPlayer-tvOSTests";
-			productName = "AdditionalPlayer-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* AdditionalPlayer-tvOSTests.xctest */;
+			name = "Sesplay-tvOSTests";
+			productName = "Sesplay-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Sesplay-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -754,7 +754,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AdditionalPlayer" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sesplay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -817,10 +817,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AdditionalPlayer */,
-				00E356ED1AD99517003FC87E /* AdditionalPlayerTests */,
-				2D02E47A1E0B4A5D006451C7 /* AdditionalPlayer-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* AdditionalPlayer-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Sesplay */,
+				00E356ED1AD99517003FC87E /* SesplayTests */,
+				2D02E47A1E0B4A5D006451C7 /* Sesplay-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Sesplay-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1101,19 +1101,19 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				0F1499E4B20A45A0AE8501FB /* Agane S 65.ttf in Resources */,
-				71BEF80C547C48438CF181DE /* Roboto Black Italic.ttf in Resources */,
-				A828EF85252A4D8C858A6E30 /* Roboto Black.ttf in Resources */,
-				7D146C2B4E4D427F9669F0F9 /* Roboto Bold Italic.ttf in Resources */,
-				050902EDB79144B08D1AAE9D /* Roboto Bold.ttf in Resources */,
-				75532A3890024D16ADFA0D70 /* Roboto Italic.ttf in Resources */,
-				6F65E63C4B084924BEC7D17A /* Roboto Light Italic.ttf in Resources */,
-				EF1888B5B4354CFEB186249C /* Roboto Light.ttf in Resources */,
-				D76B1EB2BC9141B1B60DD831 /* Roboto Medium Italic.ttf in Resources */,
-				A5F1690F57114E7DB3B6E063 /* Roboto Medium.ttf in Resources */,
-				E486159EE0F44289A061952B /* Roboto Regular.ttf in Resources */,
-				FB618C10E65C4567AC7ABAEF /* Roboto Thin Italic.ttf in Resources */,
-				A62A4745C892408BB515396C /* Roboto Thin.ttf in Resources */,
+				F7C57F76C2E243C2A7DCDB1D /* Agane S 65.ttf in Resources */,
+				13B9F2FB4E6C4D769B0281A5 /* Roboto Black Italic.ttf in Resources */,
+				60A8CB20F869497E85AAB08B /* Roboto Black.ttf in Resources */,
+				7DABF5BFA65146648E69C2C0 /* Roboto Bold Italic.ttf in Resources */,
+				7CCD8F8C72CA445FB40F4856 /* Roboto Bold.ttf in Resources */,
+				B018D9CB79E5452CA0A2D7FB /* Roboto Italic.ttf in Resources */,
+				F9319F70D6D14AE3A9D6DD18 /* Roboto Light Italic.ttf in Resources */,
+				5C260480DFB74B269EA32935 /* Roboto Light.ttf in Resources */,
+				000BB49AF61E4EE29A78A156 /* Roboto Medium Italic.ttf in Resources */,
+				74B8AD1893724CAFA3B6576B /* Roboto Medium.ttf in Resources */,
+				4154A1E6C8894355B530D4FD /* Roboto Regular.ttf in Resources */,
+				B1746134A7CB44CBA0E4BA8E /* Roboto Thin Italic.ttf in Resources */,
+				9D83173DF2D142308DFC16AB /* Roboto Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,7 +1170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AdditionalPlayerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SesplayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1196,7 +1196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* AdditionalPlayerTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* SesplayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,12 +1205,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AdditionalPlayer */;
+			target = 13B07F861A680F5B00A75B9A /* Sesplay */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* AdditionalPlayer-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Sesplay-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1222,7 +1222,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = AdditionalPlayer;
+			path = Sesplay;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1236,7 +1236,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AdditionalPlayerTests/Info.plist;
+				INFOPLIST_FILE = SesplayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1245,7 +1245,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdditionalPlayer.app/AdditionalPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sesplay.app/Sesplay";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1262,7 +1262,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AdditionalPlayerTests/Info.plist;
+				INFOPLIST_FILE = SesplayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1271,7 +1271,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdditionalPlayer.app/AdditionalPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sesplay.app/Sesplay";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1289,7 +1289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = AdditionalPlayer/Info.plist;
+				INFOPLIST_FILE = Sesplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1297,7 +1297,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AdditionalPlayer;
+				PRODUCT_NAME = Sesplay;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1311,7 +1311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AdditionalPlayer/Info.plist;
+				INFOPLIST_FILE = Sesplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1319,7 +1319,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AdditionalPlayer;
+				PRODUCT_NAME = Sesplay;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1340,13 +1340,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AdditionalPlayer-tvOS/Info.plist";
+				INFOPLIST_FILE = "Sesplay-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AdditionalPlayer-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Sesplay-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1374,13 +1374,13 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AdditionalPlayer-tvOS/Info.plist";
+				INFOPLIST_FILE = "Sesplay-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AdditionalPlayer-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Sesplay-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1407,16 +1407,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AdditionalPlayer-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Sesplay-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AdditionalPlayer-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Sesplay-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdditionalPlayer-tvOS.app/AdditionalPlayer-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sesplay-tvOS.app/Sesplay-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1440,16 +1440,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AdditionalPlayer-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Sesplay-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AdditionalPlayer-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Sesplay-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdditionalPlayer-tvOS.app/AdditionalPlayer-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sesplay-tvOS.app/Sesplay-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1564,7 +1564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AdditionalPlayerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SesplayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1573,7 +1573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AdditionalPlayer" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sesplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1582,7 +1582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AdditionalPlayer-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sesplay-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1591,7 +1591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AdditionalPlayer-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Sesplay-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1600,7 +1600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AdditionalPlayer" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sesplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
