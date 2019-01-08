@@ -3,8 +3,9 @@ import LoginScreen from "../screens/Auth/LoginScreen";
 import RegisterScreen from "../screens/Auth/RegisterScreen";
 import RegisterProfileScreen from "../screens/Auth/RegisterProfileScreen";
 
-// MAIN TAB
+// HOME TAB
 import HomeScreen from "../screens/HomeScreen";
+import SearchScreen from "../screens/SearchScreen";
 
 export const AuthRoutes = {
     Login: { screen: LoginScreen },
@@ -16,5 +17,10 @@ export const AppRoutes = {
 }
 
 export const MainTabRoutes = {
-    Home: { screen: HomeScreen }
+    
+}
+
+export const HomeRoutes = {
+    Home: { screen: HomeScreen },
+    Search: { screen: SearchScreen }
 }
