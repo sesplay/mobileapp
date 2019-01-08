@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
-import { electric_green, white, black_20, brownish_grey } from "../styles/colors";
-import { robotoBlack, robotoMedium } from "../styles/fonts";
+import { electric_green, white, black_20, brownish_grey, black2f } from "../styles/colors";
+import { robotoBlack, robotoMedium, robotoLight, robotoBold } from "../styles/fonts";
 
 const styles = StyleSheet.create({
     // BUTTON
@@ -12,7 +12,11 @@ const styles = StyleSheet.create({
     searchIcon: {paddingTop: 18, marginRight: 10},
     searchInputText: {...robotoMedium, lineHeight: 21,letterSpacing: 0.3,color: brownish_grey},
     searchInputTextButton: {paddingTop: 16, paddingBottom: 17},
-    searchInput: {flex: 1, paddingTop: 14, paddingBottom: 13}
+    searchInput: {flex: 1, paddingTop: 14, paddingBottom: 13},
+    // TITLE SECTION
+    titleSection: {color: black2f},
+    titleSectionLight: {...robotoLight, fontSize: 22, letterSpacing: 1},
+    titleSectionBold: {...robotoBold, fontSize: 28}
 });
 
 export default styles
