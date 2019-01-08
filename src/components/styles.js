@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     // TITLE SECTION
     titleSection: {color: black2f},
     titleSectionLight: {...robotoLight, fontSize: 22, letterSpacing: 1},
-    titleSectionBold: {...robotoBold, fontSize: 28}
+    titleSectionBold: {...robotoBold, fontSize: 28, paddingHorizontal: 15, marginBottom: 20}
 });
 
 export default styles
