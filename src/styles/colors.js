@@ -1,5 +1,15 @@
 export const
+    black= "#000000",
+    black_50= "rgba(0, 0, 0, 0.5)",
+    black_20= "rgba(0, 0, 0, 0.2)",
     black2f= "#2f2f2f",
+    brownish_grey= "#5b5b5b",
+    very_light_pink = "#bababa",
     white= "#ffffff",
     electric_green = "#2bd927",
-    very_light_pink = "#bababa"
+    greenish_cyan= "#31ffa1",
+    light_navy_blue= "#2e3288",
+    purple= "#561588",
+    pinkish_red= "#f31e51",
+    burnt_red= "#a60808",
+    sun_yellow= "#f0e82c"
