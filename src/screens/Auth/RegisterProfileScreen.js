@@ -6,7 +6,7 @@ class RegisterProfileScreen extends Component {
     render() {
         return (
             <AuthScreenView>
-                <View style={{marginBottom: 67}}>
+                <View style={{marginBottom: 65}}>
                     <AuthTitle 
                         title="Your registration almost done."
                         style={{fontSize: 32, lineHeight: 36, letterSpacing: -0.96,}}

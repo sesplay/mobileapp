@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View } from "react-native";
 import { AuthScreenView, AuthTextInput, Button, TextButton, AuthTitle } from "../../components";
+import { very_light_pink } from "../../styles/colors";
 
 class LoginScreen extends Component {
     render() {
@@ -38,7 +39,7 @@ class LoginScreen extends Component {
                 />
                 <TextButton 
                     title="Forgot Password" 
-                    style={{marginTop: 140}}
+                    style={{marginTop: 140, color: very_light_pink}}
                 />
             </AuthScreenView>
         );

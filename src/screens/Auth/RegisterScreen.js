@@ -9,7 +9,6 @@ class RegisterScreen extends Component {
                 <View style={{marginBottom: 150}}>
                     <AuthTitle 
                         title="Register"
-                        style={{marginBottom: 5}}
                     />
                 </View>
                 <AuthTextInput 
