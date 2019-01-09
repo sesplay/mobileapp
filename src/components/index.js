@@ -17,6 +17,9 @@ import EventHorizontalItem from './Event/EventHorizontalItem'
 // INSIGHT
 import InsightItem from './Insight/InsightItem'
 
+// MESSAGE
+import MessageItem from './Message/MessageItem'
+
 export {
     Icon,
     AuthScreenView,
@@ -32,5 +35,7 @@ export {
 
     EventHorizontalItem,
 
-    InsightItem
+    InsightItem,
+
+    MessageItem
 }
