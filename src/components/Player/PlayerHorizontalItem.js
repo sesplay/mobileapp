@@ -1,16 +1,18 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
+import { withNavigation } from 'react-navigation'
+import Avatar from "../Avatar";
 import styles from "./styles";
 
-const PlayerHorizontalItem = ({player}) => (
-    <View style={styles.playerHorizontalContainer}>
-        <View>
-            <Image source={{uri: player.images[2].url}} style={styles.playerHorizontalImage} />
-            <View style={styles.ratingContainer}>
-                <Text style={styles.ratingText}>{player.rating.toFixed(1)}</Text>
-            </View>
-        </View>
-        <Text style={styles.playerHorizontalNameText}>{player.name}</Text>
-    </View>
+const PlayerHorizontalItem = ({navigation, player}) => (
+    <TouchableOpacity 
+        onPress={() => navigation.navigate('Profile', {playerId: player.id})}
+        style={styles.playerHorizontalContainer}
+    >
+        <React.Fragment>
+            <Avatar size={100} url={player.images[2].url} rating={player.rating} />
+            <Text style={styles.playerHorizontalNameText}>{player.name}</Text>
+        </React.Fragment>
+    </TouchableOpacity>
 )
-export default PlayerHorizontalItem;
+export default withNavigation(PlayerHorizontalItem);

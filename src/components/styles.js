@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import { electric_green, white, black_20, brownish_grey, black2f } from "../styles/colors";
-import { robotoBlack, robotoMedium, robotoLight, robotoBold } from "../styles/fonts";
+import { robotoBlack, robotoMedium, robotoLight, robotoBold, roboto } from "../styles/fonts";
 
 const styles = StyleSheet.create({
     // BUTTON
@@ -16,7 +16,17 @@ const styles = StyleSheet.create({
     // TITLE SECTION
     titleSection: {color: black2f},
     titleSectionLight: {...robotoLight, fontSize: 22, letterSpacing: 1},
-    titleSectionBold: {...robotoBold, fontSize: 28, paddingHorizontal: 15, marginBottom: 20}
+    titleSectionBold: {...robotoBold, fontSize: 28, paddingHorizontal: 15, marginBottom: 20},
+    // HEADER BAR
+    headerBarContainer: {flexDirection: 'row'},
+    headerButtonContainer: {width: 42, height: 42, padding: 10, margin: 10, borderRadius: 21, alignItems: 'center', justifyContent: 'center'},
+    headerTitleContainer: {paddingHorizontal: 15, justifyContent: 'center', flex: 1},
+    headerTitleText: {...roboto, fontSize: 20},
+    // RATING
+    ratingContainer: {height: 35, width: 35, backgroundColor: electric_green, borderRadius: 32/2, justifyContent: 'center', alignItems: 'center', position: 'absolute', right: 0, bottom: 0},
+    ratingText: {...robotoMedium, fontSize: 12,lineHeight: 16,letterSpacing: -0.3,color: white},
+    ratingLargeContainer: {width: 41, height: 41, borderRadius: 41/2},
+    ratingLargeText: {fontSize: 16, lineHeight: 20},
 });
 
 export default styles
