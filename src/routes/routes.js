@@ -14,6 +14,8 @@ import SearchScreen from "../screens/SearchScreen";
 import AboutScreen from "../screens/AboutScreen";
 import MessageScreen from "../screens/MessageScreen";
 import EventScreen from "../screens/EventScreen";
+import ProfileScreen from "../screens/ProfileScreen";
+import ChatScreen from "../screens/ChatScreen";
 
 export const AuthRoutes = {
     Login: { screen: LoginScreen },
@@ -22,7 +24,8 @@ export const AuthRoutes = {
 }
 
 export const AppRoutes = {
-    About: { screen: AboutScreen }
+    About: { screen: AboutScreen },
+    Chat: { screen: ChatScreen }
 }
 
 export const MainTabRoutes = {
@@ -33,5 +36,6 @@ export const MainTabRoutes = {
 
 export const HomeRoutes = {
     Home: { screen: HomeScreen },
-    Search: { screen: SearchScreen }
+    Search: { screen: SearchScreen },
+    Profile: { screen: ProfileScreen }
 }
