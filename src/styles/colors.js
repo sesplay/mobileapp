@@ -1,10 +1,12 @@
 export const
     black= "#000000",
+    black12= "#121212",
     black_50= "rgba(0, 0, 0, 0.5)",
     black_20= "rgba(0, 0, 0, 0.2)",
     black2f= "#2f2f2f",
     brownish_grey= "#5b5b5b",
     very_light_pink = "#bababa",
+    white_two= "#f8f8f8",
     white= "#ffffff",
     electric_green = "#2bd927",
     greenish_cyan= "#31ffa1",
