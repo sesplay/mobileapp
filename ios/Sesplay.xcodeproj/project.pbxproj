@@ -70,6 +70,11 @@
 		C570CD124A064FF5939D9EEC /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9ADC2B93C404AE791C3FB02 /* SimpleLineIcons.ttf */; };
 		AB09A1DAEE3C4D468FFD8450 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1FEF2514BC44524B7004AA0 /* Zocial.ttf */; };
 		F7BEA5172CCF4323ABB913F8 /* Agane S 55.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0669B12ACECB4A0F8725C392 /* Agane S 55.ttf */; };
+		E1833AC064284B5FA85C3105 /* Agane 45.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7F10E65F3F4464FB881B632 /* Agane 45.ttf */; };
+		AB985A807211415998162712 /* Agane 55.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A7120AD7F24A43A8FC446B /* Agane 55.ttf */; };
+		970361757E94409DBEB4F339 /* Agane 65.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A902FA2EF47147DEBDDCC85A /* Agane 65.ttf */; };
+		E249056A95964E9698798BA8 /* Agane 75.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27A2473522F84610B9A7D09A /* Agane 75.ttf */; };
+		91E2AEDE2EB74D4EB00FB1A4 /* Agane S 75.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C3A43A7BC347B49539BDA4 /* Agane S 75.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -410,6 +415,11 @@
 		F9ADC2B93C404AE791C3FB02 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E1FEF2514BC44524B7004AA0 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0669B12ACECB4A0F8725C392 /* Agane S 55.ttf */ = {isa = PBXFileReference; name = "Agane S 55.ttf"; path = "../assets/fonts/Agane S 55.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7F10E65F3F4464FB881B632 /* Agane 45.ttf */ = {isa = PBXFileReference; name = "Agane 45.ttf"; path = "../assets/fonts/Agane 45.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8A7120AD7F24A43A8FC446B /* Agane 55.ttf */ = {isa = PBXFileReference; name = "Agane 55.ttf"; path = "../assets/fonts/Agane 55.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A902FA2EF47147DEBDDCC85A /* Agane 65.ttf */ = {isa = PBXFileReference; name = "Agane 65.ttf"; path = "../assets/fonts/Agane 65.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27A2473522F84610B9A7D09A /* Agane 75.ttf */ = {isa = PBXFileReference; name = "Agane 75.ttf"; path = "../assets/fonts/Agane 75.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26C3A43A7BC347B49539BDA4 /* Agane S 75.ttf */ = {isa = PBXFileReference; name = "Agane S 75.ttf"; path = "../assets/fonts/Agane S 75.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -709,6 +719,11 @@
 				F9ADC2B93C404AE791C3FB02 /* SimpleLineIcons.ttf */,
 				E1FEF2514BC44524B7004AA0 /* Zocial.ttf */,
 				0669B12ACECB4A0F8725C392 /* Agane S 55.ttf */,
+				C7F10E65F3F4464FB881B632 /* Agane 45.ttf */,
+				F8A7120AD7F24A43A8FC446B /* Agane 55.ttf */,
+				A902FA2EF47147DEBDDCC85A /* Agane 65.ttf */,
+				27A2473522F84610B9A7D09A /* Agane 75.ttf */,
+				26C3A43A7BC347B49539BDA4 /* Agane S 75.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1190,6 +1205,11 @@
 				C570CD124A064FF5939D9EEC /* SimpleLineIcons.ttf in Resources */,
 				AB09A1DAEE3C4D468FFD8450 /* Zocial.ttf in Resources */,
 				F7BEA5172CCF4323ABB913F8 /* Agane S 55.ttf in Resources */,
+				E1833AC064284B5FA85C3105 /* Agane 45.ttf in Resources */,
+				AB985A807211415998162712 /* Agane 55.ttf in Resources */,
+				970361757E94409DBEB4F339 /* Agane 65.ttf in Resources */,
+				E249056A95964E9698798BA8 /* Agane 75.ttf in Resources */,
+				91E2AEDE2EB74D4EB00FB1A4 /* Agane S 75.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
