@@ -26,6 +26,11 @@ import InsightItem from './Insight/InsightItem'
 // MESSAGE
 import MessageItem from './Message/MessageItem'
 
+// ABOUT
+import AboutHeader from './About/AboutHeader'
+import AboutContent from './About/AboutContent'
+import AboutFooter from './About/AboutFooter'
+
 export {
     ScreenView,
     Icon,
@@ -48,5 +53,9 @@ export {
 
     InsightItem,
 
-    MessageItem
+    MessageItem,
+
+    AboutHeader,
+    AboutContent,
+    AboutFooter
 }
