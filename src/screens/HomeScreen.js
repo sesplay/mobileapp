@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { ScrollView, View, FlatList } from "react-native";
-import { SearchInputButton, PlayerHorizontalItem, EventHorizontalItem, TitleSection, InsightItem } from "../components";
+import { View, FlatList } from "react-native";
+import { ScreenView, SearchInputButton, PlayerHorizontalItem, EventHorizontalItem, TitleSection, InsightItem } from "../components";
 import { topSessionPlayers, upcomingEvents, insight } from "../data/home";
 
 class HomeScreen extends Component {
@@ -14,7 +14,7 @@ class HomeScreen extends Component {
     }
     render() {
         return (
-            <ScrollView>
+            <ScreenView scrollable>
                 <SearchInputButton />
                 <View style={{paddingTop: 20, paddingBottom: 35}}>
                     <FlatList 
@@ -65,7 +65,7 @@ class HomeScreen extends Component {
                         )}
                     />
                 </View>
-            </ScrollView>
+            </ScreenView>
         );
     }
 }
