@@ -22,4 +22,5 @@ const HeaderBar = ({navigation, color, title, titleStyle, headerLeft = true, sty
         </View>
     </View>
 )
+
 export default withNavigation(HeaderBar);
