@@ -26,6 +26,9 @@ import InsightItem from './Insight/InsightItem'
 // MESSAGE
 import MessageItem from './Message/MessageItem'
 
+// ACCOUNT
+import AccountNav from './Account/AccountNav'
+
 // ABOUT
 import AboutHeader from './About/AboutHeader'
 import AboutContent from './About/AboutContent'
@@ -54,6 +57,8 @@ export {
     InsightItem,
 
     MessageItem,
+
+    AccountNav,
 
     AboutHeader,
     AboutContent,
