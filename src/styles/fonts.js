@@ -1,6 +1,11 @@
 export const 
+    agane45 = {fontFamily: "Agane 45"},
+    agane55 = {fontFamily: "Agane 55"},
     aganeS55 = {fontFamily: "Agane S 55"},
+    agane65 = {fontFamily: "Agane 65"},
     aganeS65 = {fontFamily: "Agane S 65"},
+    agane75 = {fontFamily: "Agane 75"},
+    aganeS75 = {fontFamily: "Agane S 75"},
     roboto = {fontFamily: "Roboto Regular"},
     robotoItalic = {fontFamily: "Roboto Italic"},
     robotoThin = {fontFamily: "Roboto Thin"},
