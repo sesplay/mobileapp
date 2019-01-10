@@ -6,8 +6,27 @@ export const players = [
         followers: 643,
         fee: "> Rp. 300k",
         about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida porttitor ante a accumsan. In hac habitasse platea dictumst. Donec aliquet accumsan felis sed rhoncus. Proin magna lacus, blandit in consequat quis, dapibus sit amet urna. Etiam pharetra nulla erat, quis mollis lectus pellentesque nec. Donec scelerisque gravida turpis.",
-        lastest_events: [
-
+        latest_events: [
+            {
+                id: "d1v",
+                name: "Authentic Moment With Fiersa Besari",
+                date: "2018-01-19",
+                images: [
+                    {
+                        url: "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20181227062500_5c240dccdebb5.jpg"
+                    }
+                ]
+            },
+            {
+                id: "bYN",
+                name: "Love is Live",
+                date: "2018-02-08",
+                images: [
+                    {
+                        url: "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20181116114647.JPG"
+                    }
+                ]
+            }
         ],
         skills: [
             "Vocal", "Guitar", "Piano", "Jazz", "Pop"
