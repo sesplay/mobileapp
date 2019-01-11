@@ -26,6 +26,7 @@ import ProfileHeader from './Player/ProfileHeader'
 import ProfileContent from './Player/ProfileContent'
 
 // EVENT
+import EventVerticalItem from './Event/EventVerticalItem'
 import EventHorizontalItem from './Event/EventHorizontalItem'
 
 // INSIGHT
@@ -67,6 +68,7 @@ export {
     ProfileHeader,
     ProfileContent,
 
+    EventVerticalItem,
     EventHorizontalItem,
 
     InsightItem,

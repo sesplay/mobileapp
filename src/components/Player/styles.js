@@ -1,5 +1,5 @@
 import { StyleSheet, Dimensions } from "react-native";
-import { robotoMedium, robotoBold, robotoLight, roboto, robotoBlack } from "../../styles/fonts";
+import { robotoMedium, robotoBold, robotoLight, roboto } from "../../styles/fonts";
 import { black2f, black, electric_green, brownish_grey, very_light_pink, black_50 } from "../../styles/colors";
 
 const styles = StyleSheet.create({
@@ -18,11 +18,6 @@ const styles = StyleSheet.create({
     playerProfileValueDescText: {...roboto, fontSize: 18, color: electric_green},
     // PROFILE CONTENT
     playerProfileAboutText: {...roboto, fontSize: 16, lineHeight: 21, color: black2f, paddingHorizontal: 15},
-    // PROFILE EVENT
-    profileEventItemContainer: {flexDirection: 'row', paddingHorizontal: 15, paddingVertical: 10},
-    profileEventImage: {width: 54, height: 36, borderRadius: 5},
-    profileEventNameContainer: {flex: 1, justifyContent: 'center'},
-    profileEventNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, marginLeft: 10},
     // PROFILE SKILL
     profileSkillItemContainer: {paddingHorizontal: 10, paddingVertical: 7, borderColor: black_50, borderWidth: 0.5, borderRadius: 15, width: 100, marginHorizontal: 2.5, marginBottom: 10},
     profileSkillText: {...robotoMedium, fontSize: 12, letterSpacing: 0.4, color: black2f, textAlign: 'center'},

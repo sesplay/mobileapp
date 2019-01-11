@@ -3,19 +3,12 @@ import { View, Text, FlatList, Image  } from "react-native";
 import ProfileSection from "./ProfileSection";
 import Avatar from "../Avatar";
 import Icon from "../Icon";
+import EventHorizontalItem from "../Event/EventHorizontalItem";
 import LoadMoreButton from "../LoadMoreButton";
 import styles from "./styles";
 import { dateFormat } from "../../functions/date";
 import { electric_green } from "../../styles/colors";
 
-const EventItem = ({event}) => (
-    <View style={styles.profileEventItemContainer}>
-        <Image source={{uri: event.images[0].url}} style={styles.profileEventImage} />
-        <View style={styles.profileEventNameContainer}>
-            <Text style={styles.profileEventNameText}>{event.name.toUpperCase()}</Text>
-        </View>
-    </View>
-)
 const SkillItem = ({skill}) => (
     <View style={styles.profileSkillItemContainer}>
         <Text style={styles.profileSkillText}>{skill}</Text>
@@ -55,7 +48,7 @@ const ProfileContent = ({player}) => (
             <FlatList 
                 data={player.latest_events}
                 keyExtractor={item => item.id}
-                renderItem={({item}) => <EventItem event={item} />}
+                renderItem={({item}) => <EventHorizontalItem event={item} />}
             />
             <LoadMoreButton title="See all" />
         </ProfileSection>
