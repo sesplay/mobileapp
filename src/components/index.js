@@ -4,8 +4,6 @@ import HeaderBar from './HeaderBar'
 import Button from './Button'
 import LoadMoreButton from './LoadMoreButton'
 import TextButton from './TextButton'
-import SearchInput from './SearchInput'
-import SearchInputButton from './SearchInputButton'
 import TitleSection from './TitleSection'
 import Avatar from './Avatar'
 
@@ -13,6 +11,10 @@ import Avatar from './Avatar'
 import AuthScreenView from './Auth/AuthScreenView'
 import AuthTextInput from './Auth/AuthTextInput'
 import AuthTitle from './Auth/AuthTitle'
+
+// SEARCH
+import SearchInput from './Search/SearchInput'
+import SearchInputButton from './Search/SearchInputButton'
 
 // PLAYER
 import PlayerVerticalItem from './Player/PlayerVerticalItem'

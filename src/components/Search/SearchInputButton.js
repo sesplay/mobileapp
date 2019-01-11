@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, TouchableHighlight } from "react-native";
 import { withNavigation } from 'react-navigation'
-import Icon from "./Icon";
-import { white, brownish_grey } from "../styles/colors";
+import Icon from "../Icon";
+import { white, brownish_grey } from "../../styles/colors";
 import styles from "./styles";
 
 const SearchInputButton = ({navigation}) => (
