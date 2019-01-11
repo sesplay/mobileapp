@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { electric_green, white, black_20, brownish_grey, black2f } from "../styles/colors";
+import { electric_green, white, black_20, brownish_grey, black2f, black } from "../styles/colors";
 import { robotoBlack, robotoMedium, robotoLight, robotoBold, roboto } from "../styles/fonts";
 
 const styles = StyleSheet.create({
@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     buttonContainer: {paddingVertical: 10, paddingHorizontal: 15, borderRadius: 32, backgroundColor: electric_green, width: 170},
     buttonText: {...robotoBlack, fontSize: 18, color: white, textAlign: 'center'},
     buttonTextOnly: {color: electric_green},
+    loadMoreButtonText: {...robotoBlack, fontSize: 14, letterSpacing: 0.07, color: black, padding: 15},
     // SEARCH
     searchInputContainer: {flexDirection: 'row', margin: 15, borderRadius: 6, backgroundColor: white, borderWidth: 0.5, borderColor: black_20, paddingLeft: 16},
     searchIcon: {paddingTop: 18, marginRight: 10},

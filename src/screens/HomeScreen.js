@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, FlatList } from "react-native";
-import { ScreenView, SearchInputButton, PlayerHorizontalItem, EventHorizontalItem, TitleSection, InsightItem } from "../components";
+import { ScreenView, SearchInputButton, PlayerVerticalItem, EventHorizontalItem, TitleSection, InsightItem } from "../components";
 import { topSessionPlayers, upcomingEvents, insight } from "../data/home";
 
 class HomeScreen extends Component {
@@ -43,7 +43,7 @@ class HomeScreen extends Component {
                         data={this.state.topSessionPlayers}
                         keyExtractor={(item) => item.id}
                         renderItem={({item}) => (
-                            <PlayerHorizontalItem player={item} />
+                            <PlayerVerticalItem player={item} />
                         )}
                     />
                 </View>

@@ -2,6 +2,7 @@ import ScreenView from './ScreenView'
 import Icon from './Icon'
 import HeaderBar from './HeaderBar'
 import Button from './Button'
+import LoadMoreButton from './LoadMoreButton'
 import TextButton from './TextButton'
 import SearchInput from './SearchInput'
 import SearchInputButton from './SearchInputButton'
@@ -14,6 +15,7 @@ import AuthTextInput from './Auth/AuthTextInput'
 import AuthTitle from './Auth/AuthTitle'
 
 // PLAYER
+import PlayerVerticalItem from './Player/PlayerVerticalItem'
 import PlayerHorizontalItem from './Player/PlayerHorizontalItem'
 import ProfileSection from './Player/ProfileSection'
 import ProfileHeader from './Player/ProfileHeader'
@@ -41,6 +43,7 @@ export {
     Icon,
     HeaderBar,
     Button,
+    LoadMoreButton,
     TextButton,
     SearchInput,
     SearchInputButton,
@@ -51,6 +54,7 @@ export {
     AuthTextInput,
     AuthTitle,
     
+    PlayerVerticalItem,
     PlayerHorizontalItem,
     ProfileSection,
     ProfileHeader,

@@ -3,6 +3,8 @@ import { robotoMedium, robotoBold, robotoLight, roboto, robotoBlack } from "../.
 import { black2f, black, electric_green, brownish_grey, very_light_pink, black_50 } from "../../styles/colors";
 
 const styles = StyleSheet.create({
+    playerVerticalContainer: {alignItems: 'center', paddingVertical: 5, paddingHorizontal: 5},
+    playerVerticalNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, width: 115, marginTop: 15, textAlign: 'center'},
     playerHorizontalContainer: {alignItems: 'center', paddingVertical: 5, paddingHorizontal: 5},
     playerHorizontalImage: {height: 100, width: 100, borderRadius: 50},
     playerHorizontalNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, width: 115, marginTop: 15, textAlign: 'center'},
@@ -16,7 +18,6 @@ const styles = StyleSheet.create({
     playerProfileValueDescText: {...roboto, fontSize: 18, color: electric_green},
     // PROFILE CONTENT
     playerProfileAboutText: {...roboto, fontSize: 16, lineHeight: 21, color: black2f, paddingHorizontal: 15},
-    playerProfileSeeAllText: {...robotoBlack, fontSize: 14, letterSpacing: 0.07, color: black2f, padding: 15},
     // PROFILE EVENT
     profileEventItemContainer: {flexDirection: 'row', paddingHorizontal: 15, paddingVertical: 10},
     profileEventImage: {width: 54, height: 36, borderRadius: 5},
