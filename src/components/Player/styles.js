@@ -5,9 +5,9 @@ import { black2f, black, electric_green, brownish_grey, very_light_pink, black_5
 const styles = StyleSheet.create({
     playerVerticalContainer: {alignItems: 'center', paddingVertical: 5, paddingHorizontal: 5},
     playerVerticalNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, width: 115, marginTop: 15, textAlign: 'center'},
-    playerHorizontalContainer: {alignItems: 'center', paddingVertical: 5, paddingHorizontal: 5},
-    playerHorizontalImage: {height: 100, width: 100, borderRadius: 50},
-    playerHorizontalNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, width: 115, marginTop: 15, textAlign: 'center'},
+    playerHorizontalContainer: {paddingHorizontal: 15, paddingVertical: 12.5, flexDirection: 'row'},
+    playerHorizontalNameContainer: {flex: 1, justifyContent: "center"},
+    playerHorizontalNameText: {...robotoMedium, fontSize: 14, lineHeight: 21, letterSpacing: 0.3, color: black2f, marginLeft: 10},
     // PROFILE HEADER
     playerProfileHeaderContainer: {alignItems: 'center', marginTop: 30},
     playerProfileNameText: {...robotoBold, fontSize: 28, color: black2f, marginTop: 35, marginBottom: 5},
