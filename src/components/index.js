@@ -16,6 +16,8 @@ import AuthTitle from './Auth/AuthTitle'
 // PLAYER
 import PlayerHorizontalItem from './Player/PlayerHorizontalItem'
 import ProfileSection from './Player/ProfileSection'
+import ProfileHeader from './Player/ProfileHeader'
+import ProfileContent from './Player/ProfileContent'
 
 // EVENT
 import EventHorizontalItem from './Event/EventHorizontalItem'
@@ -51,6 +53,8 @@ export {
     
     PlayerHorizontalItem,
     ProfileSection,
+    ProfileHeader,
+    ProfileContent,
 
     EventHorizontalItem,
 
