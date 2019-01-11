@@ -3,6 +3,7 @@ import { View, Text, FlatList, Image  } from "react-native";
 import ProfileSection from "./ProfileSection";
 import Avatar from "../Avatar";
 import Icon from "../Icon";
+import LoadMoreButton from "../LoadMoreButton";
 import styles from "./styles";
 import { dateFormat } from "../../functions/date";
 import { electric_green } from "../../styles/colors";
@@ -56,7 +57,7 @@ const ProfileContent = ({player}) => (
                 keyExtractor={item => item.id}
                 renderItem={({item}) => <EventItem event={item} />}
             />
-            <Text style={styles.playerProfileSeeAllText}>See all</Text>
+            <LoadMoreButton title="See all" />
         </ProfileSection>
         <ProfileSection title="Skills and Interest" contentContainerStyle={{flexDirection: 'row', paddingHorizontal: 12.5, flexWrap: 'wrap'}}>
             {player.skills.map((skill, index) => <SkillItem skill={skill} key={index} /> )}
