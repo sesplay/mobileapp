@@ -15,6 +15,8 @@ import AuthTitle from './Auth/AuthTitle'
 // SEARCH
 import SearchInput from './Search/SearchInput'
 import SearchInputButton from './Search/SearchInputButton'
+import RecentSearchTitleText from './Search/RecentSearchTitleText'
+import SearchTitle from './Search/SearchTitle'
 
 // PLAYER
 import PlayerVerticalItem from './Player/PlayerVerticalItem'
@@ -47,14 +49,17 @@ export {
     Button,
     LoadMoreButton,
     TextButton,
-    SearchInput,
-    SearchInputButton,
     TitleSection,
     Avatar,
 
     AuthScreenView,
     AuthTextInput,
     AuthTitle,
+
+    SearchInput,
+    SearchInputButton,
+    RecentSearchTitleText,
+    SearchTitle,
     
     PlayerVerticalItem,
     PlayerHorizontalItem,

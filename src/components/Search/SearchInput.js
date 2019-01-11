@@ -1,7 +1,7 @@
 import React from "react";
 import { TextInput, View } from "react-native";
-import Icon from "./Icon";
-import { brownish_grey } from "../styles/colors";
+import Icon from "../Icon";
+import { brownish_grey } from "../../styles/colors";
 import styles from "./styles";
 
 const SearchInput = () => (
