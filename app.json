@@ -1,4 +1,6 @@
 {
   "name": "Sesplay",
-  "displayName": "Sesplay"
+  "displayName": "Sesplay",
+  "icon": "app-icon.png",
+  "iconRound": "app-icon-rounded.png"
 }

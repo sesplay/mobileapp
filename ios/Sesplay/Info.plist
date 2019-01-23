@@ -55,7 +55,14 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Agane 45.ttf</string>
+		<string>Agane 55.ttf</string>
+		<string>Agane 65.ttf</string>
+		<string>Agane 75.ttf</string>
+		<string>Agane S 55.ttf</string>
 		<string>Agane S 65.ttf</string>
+		<string>Agane S 75.ttf</string>
+		<string>icomoon.ttf</string>
 		<string>Roboto Black Italic.ttf</string>
 		<string>Roboto Black.ttf</string>
 		<string>Roboto Bold Italic.ttf</string>
@@ -68,7 +75,6 @@
 		<string>Roboto Regular.ttf</string>
 		<string>Roboto Thin Italic.ttf</string>
 		<string>Roboto Thin.ttf</string>
-		<string>icomoon.ttf</string>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>
@@ -84,12 +90,6 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
-		<string>Agane S 55.ttf</string>
-		<string>Agane 45.ttf</string>
-		<string>Agane 55.ttf</string>
-		<string>Agane 65.ttf</string>
-		<string>Agane 75.ttf</string>
-		<string>Agane S 75.ttf</string>
 	</array>
 </dict>
 </plist>
