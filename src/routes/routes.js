@@ -1,3 +1,6 @@
+// SWITCH
+import SplashScreen from "../screens/SplashScreen";
+import WalkthroughScreen from "../screens/Walkthrough/WalkthroughScreen";
 // AUTH
 import LoginScreen from "../screens/Auth/LoginScreen";
 import RegisterScreen from "../screens/Auth/RegisterScreen";
@@ -16,6 +19,11 @@ import MessageScreen from "../screens/MessageScreen";
 import EventScreen from "../screens/EventScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import ChatScreen from "../screens/ChatScreen";
+
+export const SwitchRoutes = {
+    Splash: { screen: SplashScreen },
+    Walkthrough: { screen: WalkthroughScreen }
+}
 
 export const AuthRoutes = {
     Login: { screen: LoginScreen },

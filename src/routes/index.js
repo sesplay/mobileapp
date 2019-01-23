@@ -1,11 +1,12 @@
 import React from 'react'
 import { createAppContainer, createStackNavigator, createSwitchNavigator, createBottomTabNavigator } from 'react-navigation'
-import { AuthRoutes, AppRoutes, MainTabRoutes, HomeRoutes } from "./routes";
+import { AuthRoutes, AppRoutes, MainTabRoutes, HomeRoutes, SwitchRoutes } from "./routes";
 import { Icon } from '../components';
 import { electric_green, very_light_pink } from '../styles/colors';
 import { robotoMedium } from '../styles/fonts';
 
 const AppNavigator = createStackNavigator({
+    ...SwitchRoutes,
     Index: createSwitchNavigator({
         Auth: { screen: createStackNavigator(
             AuthRoutes, {
@@ -48,7 +49,9 @@ const AppNavigator = createStackNavigator({
         }, {
             headerMode: "none",
         })}
-    })
+    }, 
+        // {initialRouteName: 'App'}
+    )
 }, {
     headerMode: "none",
     mode: "modal",
