@@ -2,8 +2,19 @@ import React, { Component } from "react";
 import { View } from "react-native";
 import { AuthScreenView, AuthTextInput, Button, TextButton, AuthTitle } from "../../components";
 import { very_light_pink } from "../../styles/colors";
+import deviceStorage from "../../functions/deviceStorage";
 
 class LoginScreen extends Component {
+    login = async() => {
+        const user = {
+            id: "123das",
+            name: "Rinaldy Dwi Istanto"
+        }
+        const apiToken = "123456789"
+        await deviceStorage.saveUserInfo(user)
+        await deviceStorage.saveApiToken(apiToken)
+        return this.props.navigation.navigate('App')
+    }
     render() {
         return (
             <AuthScreenView>
@@ -30,7 +41,7 @@ class LoginScreen extends Component {
                 <Button 
                     title="Login" 
                     style={{alignSelf: 'center', marginTop: 5}}
-                    onPress={() => this.props.navigation.navigate('App')}
+                    onPress={this.login}
                 />
                 <TextButton 
                     title="Register" 
