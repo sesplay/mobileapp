@@ -1,11 +1,11 @@
 import React from "react";
-import { View, ScrollView } from "react-native";
-import styles from "./styles";
+import { StatusBar } from 'react-native'
+import LineScreenView from "../LineScreenView";
 
 const AuthScreenView = ({children}) => (
-    <React.Fragment>
-        <View style={styles.lineScreenView}></View>
-        <ScrollView contentContainerStyle={{paddingHorizontal: 50, paddingTop: 110, paddingBottom: 30}}>{children}</ScrollView>
-    </React.Fragment>
+    <LineScreenView contentContainerStyle={{paddingHorizontal: 50, paddingTop: 110, paddingBottom: 30}} scrollable>
+        <StatusBar backgroundColor="white" hidden={false} barStyle="dark-content" />
+        {children}
+    </LineScreenView>
 )
 export default AuthScreenView;

@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     ratingText: {...robotoMedium, fontSize: 12,lineHeight: 16,letterSpacing: -0.3,color: white},
     ratingLargeContainer: {width: 41, height: 41, borderRadius: 41/2},
     ratingLargeText: {fontSize: 16, lineHeight: 20},
+    // LINE SCREEN VIEW
+    lineScreenView: {width: 10, position: 'absolute', top: 0, left: 0, bottom: 0, backgroundColor: electric_green, zIndex: 100},
 });
 
 export default styles
